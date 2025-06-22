@@ -1,5 +1,5 @@
 
-# 🚀 Design Patterns Implementation Exercises
+# 🚀 Design Patterns and Principles
 
 This repository contains Java implementations of common design patterns with clear examples and test cases.
 
