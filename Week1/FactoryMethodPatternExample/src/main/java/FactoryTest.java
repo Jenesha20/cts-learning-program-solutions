@@ -6,17 +6,17 @@ import factories.WordDocumentFactory;
 
 public class FactoryTest {
     public static void main(String[] args) {
-        // Create factories
+        
         DocumentFactory wordFactory = new WordDocumentFactory();
         DocumentFactory pdfFactory = new PdfDocumentFactory();
         DocumentFactory excelFactory = new ExcelDocumentFactory();
 
-        // Create documents using factories
+        
         Document wordDoc = wordFactory.createDocument();
         Document pdfDoc = pdfFactory.createDocument();
         Document excelDoc = excelFactory.createDocument();
 
-        // Test the documents
+        
         System.out.println("Testing Word Document:");
         wordDoc.open();
         wordDoc.save();
@@ -29,7 +29,7 @@ public class FactoryTest {
         excelDoc.open();
         excelDoc.save();
 
-        // Test the factory processing
+       
         System.out.println("\nTesting Factory Processing:");
         wordFactory.processDocument();
         pdfFactory.processDocument();
