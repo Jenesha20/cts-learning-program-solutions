@@ -1,0 +1,18 @@
+Understanding Asymptotic Notation
+
+Big O notation is a way to describe how fast an algorithm runs with respect to the code. It helps us compare different algorithms.
+
+Big O analyzes the algorithm by checking how many times a code or an operation gets executed.
+If the number of operation is linear with input n, Then the Big O notation is O(n)
+If the number of operation is exponential with input n, Then the Big O notation is O(n^2)
+
+
+Linear Search:
+Best Case : O(1)
+Average Case : O(n/2) (same as O(n))
+Worst Case : O(n)
+
+Binary Search:
+Best Case: O(1)
+Average Case: O(logn)
+Worst Case: O(logn)

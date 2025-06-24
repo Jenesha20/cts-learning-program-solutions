@@ -1,0 +1,14 @@
+Recursion is when a method calls itself to solve smaller instances of the same problem. 
+It helps breaks the given problem into subproblems
+Eg. Finding fibonacci till n number
+It works by defining a base case and repeating a same function of code till base condition is satisfied.
+It does not requires the use of complex loops
+
+
+Analysis:
+    The time complexity of the recursive algorithm is O(n).
+
+
+Optimization of recursive solution:
+    We can efficiently optimize recursive solutions with the help of Memoization.
+    Memoization is the process of caching results of subproblems so if the recursive call has to solve the same subproblem we can use the stored results from cache thus saving time.
