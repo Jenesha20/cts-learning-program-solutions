@@ -1,0 +1,6 @@
+<bean id="bookService" class="org.example.service.BookService">
+    <!-- Constructor injection -->
+    <constructor-arg ref="bookRepository"/>
+    <!-- Setter injection (optional) -->
+    <property name="bookRepository" ref="bookRepository"/>
+</bean>
