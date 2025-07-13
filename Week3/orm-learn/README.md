@@ -18,7 +18,7 @@
 
 | Tool     | Version                      |
 | -------- | ---------------------------- |
-| ☕ Java   | 21                           |
+| ☕ Java   | 21                          |
 | 🐬 MySQL | 8.0+                         |
 | 🧰 Maven | 3.9+                         |
 | 🧠 IDE   | IntelliJ / VS Code / Eclipse |
@@ -101,23 +101,10 @@ src/
 
 ---
 
-## 💡 **Dev Tips**
-
-### 🛠️ Use H2 for Development (Optional)
-
-Switch to in-memory DB by uncommenting in `application-dev.properties`:
-
-```properties
-spring.datasource.url=jdbc:h2:mem:testdb
-spring.datasource.driver-class-name=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=
-```
-
 ### 🔃 Common Maven Commands
 
 ```bash
-# Skip tests during build
+
 mvn clean install -DskipTests
 
 ---
